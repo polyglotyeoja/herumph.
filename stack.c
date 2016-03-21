@@ -30,4 +30,15 @@ void StackDestroy(stackT *stackP)
   stackP->top = -1; /* empty */
 }
 
+int StackIsEmpty(stackT *stackP)
+{
+  return stackP->top < 0;
+}
+
+int StackIsFull(stackT *stackP)
+{
+  return stackP->top >= stackP->maxSize - 1;
+}
+
+
 
