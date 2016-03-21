@@ -15,7 +15,7 @@ void StackDestroy(stackT *stackP);
 int StackIsEmpty(stackT *stackP);
 int StackIsFull(stackT *stackP);
 void StackPush(stackT *stackP, stackElementT element);
-void StackPop();
+stackElementT StackPop(stackT* stackP);
 
 
 #endif
