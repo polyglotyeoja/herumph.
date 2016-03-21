@@ -1,8 +1,5 @@
-#include <iostream>
-#include <string>
-
-using namespace std;
-
+#ifndef _STACK_H
+#define _STACK_H
 
 typedef char stackElementT;
 
@@ -14,3 +11,8 @@ typedef struct {
 
 
 void StackInit(stackT *stackP, int maxSize);
+void StackDestroy(stackT *stackP);
+
+
+
+#endif
