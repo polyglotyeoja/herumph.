@@ -19,3 +19,8 @@ void StackInit(stackT *stackP, int maxSize){
   stackP->top = -1;
   
 }
+
+void StackDestroy(stackT *stackP)
+{
+  
+}
